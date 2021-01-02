@@ -1,0 +1,11 @@
+D:\Pranoti\MVCDemo\WindowsFormsDemo\bin\Debug\WindowsFormsDemo.exe.config
+D:\Pranoti\MVCDemo\WindowsFormsDemo\bin\Debug\WindowsFormsDemo.exe
+D:\Pranoti\MVCDemo\WindowsFormsDemo\bin\Debug\WindowsFormsDemo.pdb
+D:\Pranoti\MVCDemo\WindowsFormsDemo\bin\Debug\DemoRepository.dll
+D:\Pranoti\MVCDemo\WindowsFormsDemo\bin\Debug\DemoRepository.pdb
+D:\Pranoti\MVCDemo\WindowsFormsDemo\obj\Debug\WindowsFormsDemo.csprojResolveAssemblyReference.cache
+D:\Pranoti\MVCDemo\WindowsFormsDemo\obj\Debug\WindowsFormsDemo.Form1.resources
+D:\Pranoti\MVCDemo\WindowsFormsDemo\obj\Debug\WindowsFormsDemo.Properties.Resources.resources
+D:\Pranoti\MVCDemo\WindowsFormsDemo\obj\Debug\WindowsFormsDemo.csproj.GenerateResource.Cache
+D:\Pranoti\MVCDemo\WindowsFormsDemo\obj\Debug\WindowsFormsDemo.exe
+D:\Pranoti\MVCDemo\WindowsFormsDemo\obj\Debug\WindowsFormsDemo.pdb

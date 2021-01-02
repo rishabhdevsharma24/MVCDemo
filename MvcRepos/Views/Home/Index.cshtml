@@ -1,0 +1,103 @@
+﻿@model IEnumerable<DemoRepository.Model.XpayDetails>
+@{
+    ViewBag.Title = "Index";Layout = null;
+}
+<head>
+    <link href="~/Content/Site.css" rel="stylesheet" />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <style>
+
+        h1{
+            color:rebeccapurple;
+        }
+        table{
+
+        }
+            #customers {
+                font-family: Arial, Helvetica, sans-serif;
+                border-collapse: collapse;
+                width: 100%;
+            }
+
+                #customers td, #customers th {
+                    border: 1px solid #ddd;
+                    padding: 8px;
+                }
+
+                #customers tr:nth-child(even) {
+                    background-color: #f2f2f2;
+                }
+
+                #customers tr:hover {
+                    background-color: #ddd;
+                }
+
+                #customers th {
+                    padding-top: 12px;
+                    padding-bottom: 12px;
+                    text-align: left;
+                    background-color: #4CAF50;
+                    color: white;
+                }
+    </style>
+</head>
+
+
+<h1>Student Database</h1>
+<input type="text" id="sometext" value="" />
+<input type="button" id="btn" value="submit">
+   
+    <table id="customers">
+
+        <tr>
+            <th>Studet_id</th>
+
+            <th>Studet_Name</th>
+
+            <th>Amount</th>
+            <th>Description</th>
+            <th>TermAndCondition</th>
+            <th>Operation</th>
+        </tr>
+
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @item.Id
+                </td>
+                <td>
+                    @item.Name
+                </td>
+                <td>
+                    @item.Amount
+                </td>
+                <td>
+                    @item.Description
+                </td>
+                <td>
+                    @item.TermAndCondition
+                </td>
+                <td>
+                    <a href="/Home/Delete?id=@item.Id">
+                        <input type="button" id="sometext" value="Delete">
+
+                    </a>
+                    @*<a href="/Home/Delete?id=@item.Id">Delete</a>*@
+                    <a href="/Home/Update?id=@item.Id">Update</a>
+                </td>
+            </tr>
+        }
+
+    </table>
+
+    <script>
+        debugger;
+        $(document).ready(function () {
+            debugger;
+            $("#btn").click(function () {
+                alert("value:" + $("#sometext").val());
+            });
+        });
+    </script>

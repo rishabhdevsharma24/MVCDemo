@@ -1,0 +1,40 @@
+﻿
+@model DemoRepository.Model.XpayDetails
+@{
+    ViewBag.Title = "Delete";
+}
+
+@using (Html.BeginForm("Delete", "Home"))
+{
+    <div>
+        <fieldset>
+            <legend>Id</legend>
+            <div>
+                @Html.TextBoxFor(model => model.Id)
+            </div>
+
+            @*<legend>Name</legend>
+            <div>
+                @Html.TextBoxFor(model => model.Name)
+            </div>
+
+            <legend>Amount</legend>
+            <div>
+                @Html.TextBoxFor(model => model.Amount)
+            </div>
+
+            <legend>Description</legend>
+            <div>
+                @Html.TextBoxFor(model => model.Description)
+            </div>
+            <legend>TermAndCondition</legend>
+            <div>
+                @Html.TextBoxFor(model => model.TermAndCondition)
+            </div>*@
+
+            <input type="submit" name="Submit" value="Submit" />
+        </fieldset>
+    </div>
+}
+
+

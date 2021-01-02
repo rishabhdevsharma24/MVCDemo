@@ -1,0 +1,4 @@
+D:\Pranoti\MVCDemo\DemoRepository\bin\Debug\DemoRepository.dll
+D:\Pranoti\MVCDemo\DemoRepository\bin\Debug\DemoRepository.pdb
+D:\Pranoti\MVCDemo\DemoRepository\obj\Debug\DemoRepository.dll
+D:\Pranoti\MVCDemo\DemoRepository\obj\Debug\DemoRepository.pdb

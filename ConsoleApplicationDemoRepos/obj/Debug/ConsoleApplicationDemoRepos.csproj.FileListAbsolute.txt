@@ -1,0 +1,8 @@
+D:\Pranoti\MVCDemo\ConsoleApplicationDemoRepos\bin\Debug\ConsoleApplicationDemoRepos.exe.config
+D:\Pranoti\MVCDemo\ConsoleApplicationDemoRepos\bin\Debug\ConsoleApplicationDemoRepos.exe
+D:\Pranoti\MVCDemo\ConsoleApplicationDemoRepos\bin\Debug\ConsoleApplicationDemoRepos.pdb
+D:\Pranoti\MVCDemo\ConsoleApplicationDemoRepos\bin\Debug\DemoRepository.dll
+D:\Pranoti\MVCDemo\ConsoleApplicationDemoRepos\bin\Debug\DemoRepository.pdb
+D:\Pranoti\MVCDemo\ConsoleApplicationDemoRepos\obj\Debug\ConsoleApplicationDemoRepos.csprojResolveAssemblyReference.cache
+D:\Pranoti\MVCDemo\ConsoleApplicationDemoRepos\obj\Debug\ConsoleApplicationDemoRepos.exe
+D:\Pranoti\MVCDemo\ConsoleApplicationDemoRepos\obj\Debug\ConsoleApplicationDemoRepos.pdb
